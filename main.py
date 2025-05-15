@@ -68,20 +68,20 @@ async def show_random_emojis(message):
     return emoji_message
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/saini_contact_bot")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/courses_hub2_bot")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/saini_contact_bot"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-1zcJxINYwNGZl"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/courses_hub2_bot"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/courses_hub2_bot"),
         ],
     ]
 )
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://tinypic.host/images/2025/02/07/IMG_20250207_224444_975.jpg",
-    "https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png",
+    "https://files.catbox.moe/9t90ws.jpg",
+    "https://files.catbox.moe/a4000w.jpg",
     # Add more image URLs as needed
 ]
 
@@ -376,7 +376,7 @@ async def info(bot: Client, update: Message):
         f"├🔹**User ID :** @{update.from_user.username}\n"
         f"├🔹**TG ID :** `{update.from_user.id}`\n"
         f"├🔹**Profile :** {update.from_user.mention}\n"
-        f"╰────────────────╯"
+        f"╰────────────────╯powerded by cr choudhary 🫶⭕"
     )
     
     await update.reply_text(        
@@ -389,7 +389,7 @@ async def info(bot: Client, update: Message):
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
         f"╭━━━━━━━✦✧✦━━━━━━━╮\n"
-        f"💥 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦\n"
+        f"💥CR BOTS 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦\n"
         f"╰━━━━━━━✦✧✦━━━━━━━╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n" 
         f"📌 𝗠𝗮𝗶𝗻 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀:\n\n"  
@@ -419,7 +419,7 @@ async def txt_handler(client: Client, m: Message):
         f"• Send any link for auto-extraction\n"  
         f"• Supports batch processing\n\n"  
         f"╭────────⊰◆⊱────────╮\n"   
-        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎](https://t.me/saini_contact_bot) 💻\n"
+        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [CR CHOUDHARY](https://t.me/courses_hub2_bot) 💻\n"
         f"╰────────⊰◆⊱────────╯\n"
         )
     )                    
@@ -518,7 +518,7 @@ async def txt_handler(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     if raw_text3 == '1':
-        CR = '[𝄟⃝‌🐬🇳‌ɪᴋʜɪʟ𝄟⃝🐬](https://t.me/+MdZ2996M2G43MWFl)'
+        CR = '[𝄟⃝‌🐬CR CHOUDHARY𝄟⃝🐬](https://t.me/courses_hub2_bot)'
     else:
         CR = raw_text3
 
@@ -776,7 +776,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎🐦](https://t.me/+MdZ2996M2G43MWFl)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [CR  𝘽𝙊𝙏𝙎🐦](https://t.me/courses_hub2_bot)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -805,7 +805,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎🐦](https://t.me/+MdZ2996M2G43MWFl)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [CR  𝘽𝙊𝙏𝙎🐦](https://t.me/courses_hub2_bot)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -834,7 +834,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎🐦](https://t.me/+MdZ2996M2G43MWFl)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [CR  𝘽𝙊𝙏𝙎🐦](https://t.me/courses_hub2_bot)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -990,8 +990,8 @@ async def text_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'🎞️𝐓𝐢𝐭𝐥𝐞 » `{name} [{res}].mp4`\n🔗𝐋𝐢𝐧𝐤 » <a href="{link}">__**CLICK HERE**__</a>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » `𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎`'
-                cc1 = f'📕𝐓𝐢𝐭𝐥𝐞 » `{name}`\n🔗𝐋𝐢𝐧𝐤 » <a href="{link}">__**CLICK HERE**__</a>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » `𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎`'
+                cc = f'🎞️𝐓𝐢𝐭𝐥𝐞 » `{name} [{res}].mp4`\n🔗𝐋𝐢𝐧𝐤 » <a href="{link}">__**CLICK HERE**__</a>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » `CR  𝘽𝙊𝙏𝙎`'
+                cc1 = f'📕𝐓𝐢𝐭𝐥𝐞 » `{name}`\n🔗𝐋𝐢𝐧𝐤 » <a href="{link}">__**CLICK HERE**__</a>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » `CR  𝘽𝙊𝙏𝙎`'
                   
                 if "drive" in url:
                     try:
@@ -1109,7 +1109,7 @@ async def text_handler(bot: Client, m: Message):
                 elif 'encrypted.m' in url:    
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎🐦](https://t.me/+MdZ2996M2G43MWFl)"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [CR 𝘽𝙊𝙏𝙎🐦](https://t.me/courses_hub2_bot)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -1121,7 +1121,7 @@ async def text_handler(bot: Client, m: Message):
                 elif 'drmcdni' in url or 'drm/wv' in url:
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎🐦](https://t.me/+MdZ2996M2G43MWFl)"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [CR 𝘽𝙊𝙏𝙎🐦](https://t.me/courses_hub2_bot)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -1133,7 +1133,7 @@ async def text_handler(bot: Client, m: Message):
                 else:
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎🐦](https://t.me/+MdZ2996M2G43MWFl)"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [CR 𝘽𝙊𝙏𝙎🐦](https://t.me/courses_hub2_bot)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
